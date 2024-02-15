@@ -57,3 +57,4 @@ departamento_ti.empleados[0].realizar_trabajo()
 # Se está eliminando el departamento: TI
 # Se está eliminando al empleado: Juan
 # Se está eliminando el departamento: Ventas
+ 
