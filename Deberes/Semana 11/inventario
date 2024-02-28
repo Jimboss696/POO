@@ -1,0 +1,62 @@
+[
+    {
+        "id": "001",
+        "nombre": "Atun",
+        "cantidad": 35,
+        "precio": 1.35
+    },
+    {
+        "id": "002",
+        "nombre": "Sardina",
+        "cantidad": 60,
+        "precio": 0.99
+    },
+    {
+        "id": "003",
+        "nombre": "Gelatina",
+        "cantidad": 68,
+        "precio": 1.75
+    },
+    {
+        "id": "004",
+        "nombre": "Leche",
+        "cantidad": 90,
+        "precio": 0.99
+    },
+    {
+        "id": "005",
+        "nombre": "Coca Cola",
+        "cantidad": 80,
+        "precio": 0.6
+    },
+    {
+        "id": "006",
+        "nombre": "Fanta",
+        "cantidad": 80,
+        "precio": 0.65
+    },
+    {
+        "id": "007",
+        "nombre": "Cafe",
+        "cantidad": 100,
+        "precio": 0.25
+    },
+    {
+        "id": "008",
+        "nombre": "Arroz",
+        "cantidad": 100,
+        "precio": 0.99
+    },
+    {
+        "id": "009",
+        "nombre": "azucar",
+        "cantidad": 100,
+        "precio": 1.25
+    },
+    {
+        "id": "010",
+        "nombre": "sal",
+        "cantidad": 70,
+        "precio": 0.9
+    }
+]
