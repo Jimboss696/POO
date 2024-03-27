@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
-from tkinter import messagebox
+import tkinter
 from tkcalendar import Calendar
 
 
@@ -57,16 +57,16 @@ class AgendaApp:
             self.time_entry.delete(0, tk.END)
             self.description_entry.delete(0, tk.END)
         else:
-            messagebox.showerror("Error", "Please fill in all fields")
+            tkinter.messagebox.showerror("Error", "Please fill in all fields")
 
     def delete_event(self):
         selected_item = self.tree.selection()
         if selected_item:
-            confirmation = messagebox.askyesno("Confirm", "Are you sure you want to delete this event?")
+            confirmation = tkinter.messagebox.askyesno("Confirm", "Are you sure you want to delete this event?")
             if confirmation:
                 self.tree.delete(selected_item)
         else:
-            messagebox.showerror("Error", "Please select an event to delete")
+            tkinter.messagebox.showerror("Error", "Please select an event to delete")
 
 
 def main():
